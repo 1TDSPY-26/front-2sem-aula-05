@@ -7,7 +7,7 @@ export default function App(){
     <div>
     {/** Aqui voce vai criar todo conteudo HTML de apresentação */}
     <h1>Meu Componente</h1>
-    <Joao/>
+    <Joao sobreNome="Vieira Rodrigues"/>
 
     </div>
   );
