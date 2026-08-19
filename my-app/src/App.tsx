@@ -1,3 +1,4 @@
+import Fer from "./components/Fer/Fer";
 import Ale from "./components/Fer/Fer";
 
 export default function App() {
@@ -8,7 +9,8 @@ export default function App() {
     <div>
       {/* Aqui você cria todo conteúdo HTML de apresentação. */}
       <h1>Meu Componente</h1>
-      <Ale />
+      <Fer sobrenome1="Sardinha" sobrenome2="Francelino" />
+      
     </div>
   );
 }
