@@ -1,19 +1,14 @@
-import Fer from "./components/Fer/Fer";
+import Ale from "./components/Fer/Fer";
 
+export default function App() {
 
-export default function App(){
-  //Declarar constantes de variáveis
-
+  // Declarar constantes e variáveis
 
   return (
     <div>
-      {/** Aqui você cria todo o conteúdo do HTML de
-      apresentação */}
-        <h1>Fer</h1>
-        <Fer />
-   </div>  
-  
+      {/* Aqui você cria todo conteúdo HTML de apresentação. */}
+      <h1>Meu Componente</h1>
+      <Ale />
+    </div>
   );
-    
-
 }
