@@ -5,7 +5,7 @@ export default function App(){
     <div>
       <h1>Meu Componente</h1>
       <div>
-        <Hugo/>
+        <Hugo suberNames={["Leite", "Chimendes", "Silva", "Oliveira"]} />
       </div>
     </div>
   )
