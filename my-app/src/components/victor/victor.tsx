@@ -1,6 +1,10 @@
-
-rt default function victor() {
+type TipoProps = 
+{
+    a: string;
+    b: string;
+}
+export default function victor({sobreNome}:{sobreNome :TipoProps}){
     return (
-        <h2>victor hugo</h2>
+        <h2>Hugo {sobreNome.a +" " + sobreNome.b}</h2>
     );
 }

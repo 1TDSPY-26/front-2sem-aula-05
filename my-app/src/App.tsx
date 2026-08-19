@@ -1,4 +1,5 @@
-import victor from ".components/victor/victor";
+import Victor from "./components/victor/victor";
+import victor from "./components/victor/victor";
 
 export default function App() {
   //declarar constatante e variaveis
@@ -9,7 +10,7 @@ export default function App() {
       <h1>
         Meu componente
       </h1>
-      <victor />
+      <Victor sobreNome={{ a: "velasco ", b: "guzman" }} />
 
 
     </div>
