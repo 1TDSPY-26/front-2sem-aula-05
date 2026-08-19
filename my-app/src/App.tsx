@@ -8,7 +8,7 @@ export default function App () {
       {/**  aqui vc cria todo conteudo html de
       apresentaçao */}
         <h1>Meu Componente</h1>
-        <Marcelo/>
+        <Marcelo sobreNome1="Junior" sobreNome2="Da Mata"/>
     </div>
 
 
@@ -16,3 +16,4 @@ export default function App () {
   );
 
 }
+
