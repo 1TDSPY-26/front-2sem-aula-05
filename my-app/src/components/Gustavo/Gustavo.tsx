@@ -1,5 +1,14 @@
-export default function Gustavo() {
+type TipoProps = {
+    sobreNome1: string;
+    sobreNome2: string;
+}
+
+
+
+
+export default function Gustavo({ sobreNome1, sobreNome2 }:TipoProps) {
     return(
-        <h2>Gustavo</h2>
+        <h2>Gustavo {sobreNome1} {sobreNome2}</h2>
+        
     );
 }

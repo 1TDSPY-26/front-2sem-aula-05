@@ -5,13 +5,10 @@ export default function App() {
 
   return(
     
-     <div>
-      {/** Aquivo você cria t
-     * odo conteúdo HTML de apresentação */}
-        <h1>Meu Componente</h1>
-        <Gustavo/>
-
-     </div>
+   <div>
+      <h1>Meu Componente</h1>
+      <Gustavo sobreNome1="Rapozo" sobreNome2 ="da Silva"/>
+   </div>
   );
 
 }
