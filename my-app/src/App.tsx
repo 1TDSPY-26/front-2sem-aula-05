@@ -7,7 +7,7 @@ export default function name() {
     <div>
     {/** Aqui você cria todo conteúdo HTML de apresentação */}
       <h1>Meu Componente</h1>
-      <Eliza/>
+      <Eliza sobreNome1="Duarte" sobreNome2="do Nascimento"/>
     </div>
   );
   
